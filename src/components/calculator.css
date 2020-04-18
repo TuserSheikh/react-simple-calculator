@@ -1,0 +1,83 @@
+.calculatorArea {
+	padding: 60px 0;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+	max-width: 576px !important;
+	background-color: #1a1a1a;
+	border-radius: 30px;
+	box-shadow: 3px 0 15px #000000;
+}
+.calculatorArea {
+	padding: 60px 0;
+	color: #fff;
+}
+.mainInfoBox {
+	padding: 50px 35px;
+	text-align: right;
+}
+.calculateItem p {
+	font-size: 35px;
+	margin: 0;
+	color: #d6d6d6;
+}
+.calculateTotal p {
+	margin: 0;
+	font-size: 60px;
+	font-weight: 600;
+}
+.allButton {
+	padding-bottom: 50px;
+}
+.allButton button {
+	width: 23.8%;
+	box-shadow: 0 0 5px #080808;
+	background-color: #1a1a1a;
+	border: none;
+	margin: 3px;
+	font-size: 25px;
+	color: #d6d6d6;
+	padding: 35px 0;
+}
+.allButton button.doubleWidth {
+	width: 48.5%;
+}
+.allButton button:hover {
+	background-color: #e55126;
+}
+.allButton button:focus {
+	background-color: #e55126;
+	border-color: #e55126;
+	box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+	color: #fff;
+	background-color: #e55126 !important;
+	border-color: #e55126 !important;
+	box-shadow: none !important;
+}
+@media (min-width: 375px) and (max-width: 479px) {
+	.allButton button {
+		width: 23.2%;
+		padding: 28px 0;
+	}
+	.calculateItem p {
+		font-size: 30px;
+	}
+	.calculateTotal p {
+		font-size: 50px;
+	}
+}
+@media (min-width: 480px) and (max-width: 528px) {
+	.allButton button {
+		width: 23.6%;
+	}
+}
